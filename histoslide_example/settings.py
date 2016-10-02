@@ -120,3 +120,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Histoslide settings
+# Openslide settings
+DEEPZOOM_FORMAT = "jpeg"
+DEEPZOOM_OVERLAP = 1
+DEEPZOOM_TILE_SIZE = 256
+HISTOSLIDE_SLIDEROOT = BASE_DIR

@@ -6,6 +6,7 @@
         <h1>histoslide example</h1>
         <div id="slidepane"></div>
     </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="/static/histoslide/js/openseadragon.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
@@ -61,7 +62,7 @@
 
         }
 
-        open_slide("/histoslide/{{ Slide.pk }}.dzi");
+        open_slide("/histoslide/1.dzi");
 
         // CSS doesn't provide a good way to specify a div of height
         // (100% - height(header))
